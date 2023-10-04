@@ -124,3 +124,5 @@ To be more concise, I calculated the acceptance rate of the coupon based on the 
 The acceptance rate also proves that middle-class people with an average income of 75k to 87.5k have the lowest acceptance rate for coffee house coupons.
 
 All in all, various factors such as weather, passenger type, and income influence the likelihood of accepting or rejecting a coupon. Future analyses could explore additional factors like road congestion, coffee house pricing, and coffee quality to deepen our understanding of the decision-making process. It would also be interesting to see whether the same factors are playing a role in other types of coupons.
+
+_P.S: In the Python notebook I tried to use all three plotting libraries such as matplotlib, seaborn, and plotly to better practice all of them_
