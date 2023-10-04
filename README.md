@@ -73,4 +73,54 @@ I began by determining the acceptance ratio of coffee house coupons compared to 
 
 ![cofferation](https://github.com/Hoomaaan/Coupon-Problem/assets/33916130/1ac4400e-108e-45bb-ba2a-18a8b5b4bc8d)
 
+### Weather Impact
 
+Exploring the impact of weather on coupon acceptance, I plotted different weather types against the number of accepted and rejected coupons.
+
+![weatherImpact](https://github.com/Hoomaaan/Coupon-Problem/assets/33916130/c26cc1dd-f57c-40d8-a570-809ea980386f)
+![newplot](https://github.com/Hoomaaan/Coupon-Problem/assets/33916130/5d150ca4-314c-4eb2-84c8-5ae0db87130e)
+
+The plot indicates that sunny and rainy days tend to have a slightly higher number of accepted coupons. Conversely, snowy days show more rejections, suggesting weather influences acceptance. Additionally, I highlighted the distribution of coupons based on weather types, with approximately 86.9% distributed on sunny days.
+
+### Passenger Type Influence
+
+Analyzing the effect of passenger type on coupon acceptance/rejection, I created a bar plot based on accepted and rejected coffee house coupons for different passenger types.
+
+![newplot (2)](https://github.com/Hoomaaan/Coupon-Problem/assets/33916130/3f595e94-91ec-4e40-a6ec-99db5de598f6)
+
+The plot shows that solo drivers receive the highest number of coupons, regardless of acceptance or rejection. Notably, solo drivers tend to reject coupons more often, while drivers with friends or partners accept them more frequently. This insight can guide coupon distribution strategies to maximize revenue.
+
+### Time-of-Day and Passenger Type
+Examining the interaction between time-of-day and passenger type, I found that drivers with friends are more likely to accept coffee shop coupons throughout the day.
+
+![newplot (3)](https://github.com/Hoomaaan/Coupon-Problem/assets/33916130/d3fe8bec-06c7-4cd6-b812-04d774ab85a8)
+
+However, solo drivers tend to reject coupons, except at 10 AM, making mornings the optimal time to provide coupons to alone drivers.
+
+![newplot (4)](https://github.com/Hoomaaan/Coupon-Problem/assets/33916130/08e540bd-ee3a-4a5a-903c-03fa6c1b6040)
+
+As these two graphs show, 10 AM is the best time that has the highest number of acceptances compared to other times no matter if the driver is alone or with a friend. This will help the coffee houses know what time of the day is the best time to bring in more customers. This makes me curious to see how other passengers affect the outcome.
+
+![newplot (5)](https://github.com/Hoomaaan/Coupon-Problem/assets/33916130/7bb41fd0-e165-442e-9a6b-dfbde5c6079f)
+
+For drivers with kids, the accepted coupon count decreases as the evening approaches.
+
+Lastly, the optimal times for coupon acceptance for drivers with partners are around 10 AM or 6 PM.
+
+![newplot (6)](https://github.com/Hoomaaan/Coupon-Problem/assets/33916130/31d81b39-cd94-4fd0-8b48-97693538685a)
+
+Another hypothesis that I had during the analysis was the higher income reduces the acceptance of the coupon. Therefore, in the next section, I considered the impact of the annual income.
+
+### Income Impact
+
+Considering the impact of annual income on coupon acceptance, the following plots illustrate the number of coupons based on income groups. Surprisingly, the lowest and highest income groups show the highest received coupons, while the middle-income group (75K to 87.5K) has the lowest acceptance.
+
+![test](https://github.com/Hoomaaan/Coupon-Problem/assets/33916130/bb3ae144-7e94-4b45-ab6f-d9dffe429a47)
+
+To be more concise, I calculated the acceptance rate of the coupon based on the income groups.
+
+![image](https://github.com/Hoomaaan/Coupon-Problem/assets/33916130/3f241208-2125-4b15-ae3c-19370cedd440)
+
+The acceptance rate also proves that middle-class people with an average income of 75k to 87.5k have the lowest acceptance rate for coffee house coupons.
+
+All in all, various factors such as weather, passenger type, and income influence the likelihood of accepting or rejecting a coupon. Future analyses could explore additional factors like road congestion, coffee house pricing, and coffee quality to deepen our understanding of the decision-making process. It would also be interesting to see whether the same factors are playing a role in other types of coupons.
